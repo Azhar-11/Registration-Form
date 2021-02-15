@@ -33,6 +33,13 @@
     #img8 {display: block;}
 }
 
+#img9 {display:block;}
+#img10 {display:none}
+
+@media all and (max-width: 499px) {
+    #img9 {display: none;}
+    #img10 {display: block;}
+}
 
 .w3-left, .w3-right, .w3-badge {
     cursor:pointer
