@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Registraion Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/css.scss">
+</head>
+
+<body>
+
+
+  <div class="container-contact100">
+
+    <div style="width:500px; float:left;">
+      <div>
+        <h3 style="color: black;font-size:33px;text-align: left;margin-left: 15px"><strong>UPSC</strong> Pathshala</h3><br>
+        <h3 style="color: black;font-size: 25px;text-align: left;margin-left: 15px"><b>Best Online Coaching<br>
+            for UPSC Preparation</b></h3><br><br>
+      </div>
+        <div style="margin-left: 15px">
+            <img src="images/Capture0.JPG">
+        </div>
+    </div>
+    <div style="width:500px;height:auto;float:right;text-align:left; margin: 15px;border-radius: 20px" class="wrap-contact100">
+      <form class="validate-form" action="nextPage.html" method="get">
+        <h3><b>Book a Free Demo Class</b></h3>
+        <h4>Limited Seats only !</h4>
+        <p>
+          <label for="mobile" class="floatLabel validate-input"
+            data-validate="Please enter a valid mobile number">Mobile Number</label>
+          <input class="input100" id="mobile" name="mobile" type="tel" name="mobilenumber" placeholder="+91-9595959595">
+        </p>
+        <p>
+          <label for="name" class="floatLabel validate-input" data-validate="Please enter a valid name">Name</label>
+          <input id="name" name="name" type="text" name="name" placeholder="Enter Full name">
+        </p>
+        <p>
+          <label for="Email" class="floatLabel validate-input"
+            data-validate="Please enter a valid e-mail id: example@abc.xyz">Email</label>
+          <input id="Email" name="Email" type="text" name="email" placeholder="Enter E-mail ID">
+        </p>
+        <p>
+          <span style="font-size: 15px">What describes you best?</span>
+          <select name="option" class="floatLabel">
+            <option>Select Option</option>
+            <option>College Student</option>
+            <option>Working Professional</option>
+            <option>Full time aspirant</option>
+            <option>Other</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="Submit" id="submit">
+        </p>
+        <div style="text-align: center">
+          <span style="font-size: 13px">
+            By clicking 'Submit' button,you expilcitly solicite a call & email from uFaber
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+  <div id="dropDownSelect1"></div>
+
+  <!--===============================================================================================-->
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/animsition/js/animsition.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js"></script>
+  <script>
+    $(".selection-2").select2({
+      minimumResultsForSearch: 20,
+      dropdownParent: $('#dropDownSelect1')
+    });
+  </script>
+  <!--===============================================================================================-->
+  <script src="vendor/daterangepicker/moment.min.js"></script>
+  <script src="vendor/daterangepicker/daterangepicker.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/countdowntime/countdowntime.js"></script>
+  <!--===============================================================================================-->
+  <script src="js/main.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+
+</body>
+
+</html>
